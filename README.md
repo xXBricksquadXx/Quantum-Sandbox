@@ -34,11 +34,13 @@ Generated via `python docs/generate_assets.py`. These assets provide the visual 
 ### The Entanglement Bridge (Mirror Tech)
 
 ![Bell State Circuit](docs/bell_state_circuit.png)
+
 _Logic:_ A **Hadamard Gate** puts $q_0$ in superposition; the **CNOT Gate** entangles $q_1$. This is the fundamental math behind non-local correlation.
 
 ### Manifestation Probabilities
 
 ![Manifestation Histogram](docs/manifestation_probabilities.png)
+
 _Logic:_ This histogram represents 1,024 "Rendering" attempts. By rotating the state vector by a specific "Intention Strength," we tilt the probability of a physical manifestation.
 
 ---
