@@ -62,4 +62,12 @@ python tests/test_core.py -v
 
     [ ] Lecture 4: Operators and Observables (Next).
 
-> **Disclaimer**: This lab explores "Quantum Esotericism" through a scientific lens. We maintain a strict boundary between verified physics (decoherence, measurement) and speculative hypothesis.
+## 🤝 The Collective "We"
+
+This lab is a collaborative synthesis of established physics and frontier exploration. We rely on the groundwork laid by:
+
+- **Max Born**: For the fundamental probability density math ($P = |\psi|^2$).
+- **John Bell**: For the receipts on non-local correlation.
+- **Stanford/Cornell Faculty**: For the pedagogical bridge into QFT.
+
+"We" recognize that the math belongs to the universe; we are simply the pilots learning the controls.
