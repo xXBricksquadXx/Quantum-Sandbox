@@ -8,10 +8,6 @@ build/
 dist/
 *.egg-info/
 
-# Lab Assets 
-docs/*.png
-docs/*.jpg
-
 # OS fluff
 .DS_Store
 Thumbs.db
