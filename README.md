@@ -1,4 +1,3 @@
----
 # 🌌 Quantum-Sandbox: The Neo-Lab
 
 **A Computational Exploration of Quantum Esotericism & Reality Alteration**
@@ -6,8 +5,6 @@
 > "I'm trying to free your mind, Neo. But I can only show you the door."
 
 This repository serves as a modular research environment for investigating the intersection of **Quantum Mechanics** and **Esoteric Philosophy**. By bridging the rigorous math of the Stanford Physics curriculum with speculative consciousness models, this lab seeks to simulate the "Rendering" of reality.
-
----
 
 ## 🛠️ Project Architecture
 
