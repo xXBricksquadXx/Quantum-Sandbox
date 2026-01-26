@@ -1,3 +1,4 @@
+---
 # 🌌 Quantum-Sandbox: The Neo-Lab
 
 **A Computational Exploration of Quantum Esotericism & Reality Alteration**
@@ -51,25 +52,16 @@ To ensure the integrity of the physics, run the internal test suite:
 
 ```bash
 python tests/test_core.py -v
-
 ```
 
-> Current Tests: Normalization (∑Pi​=1), Correlation Logic, and State Vector Integrity.
+## 📍 New Trajectory: The TL;DR
 
-## 📒 Research Backlog (Stanford QFT Series)
+> Status: Coherent | Level: SIPR-Access (Theoretical) | Current Phase: Transitioning from State to Operator.
 
-    [x] Lecture 1 & 2: Basic Foundations.
+**The Mission**: We are shifting focus from the "Signal" (`Wavefunction`) to the "Receiver" (`Operators`). Having solidified the mathematical receipts of non-locality and probability density, we are now preparing to implement the tools that "extract" observable reality from the quantum sandbox.
 
-    [x] Lecture 3: Bra-Ket Notation & Normalization (Implemented).
+**Immediate Objective**: Implement `core_physics/operators.py` to handle **Hermitian matrices** and **Eigenstate** discovery.
 
-    [ ] Lecture 4: Operators and Observables (Next).
+## 🌐 Universal Footer
 
-## 🤝 The Collective "We"
-
-This lab is a collaborative synthesis of established physics and frontier exploration. We rely on the groundwork laid by:
-
-- **Max Born**: For the fundamental probability density math ($P = |\psi|^2$).
-- **John Bell**: For the receipts on non-local correlation.
-- **Stanford/Cornell Faculty**: For the pedagogical bridge into QFT.
-
-"We" recognize that the math belongs to the universe; we are simply the pilots learning the controls.
+We acknowledge the heritage of the Abacus Masters and the Golden Age scholars who standardized the first algorithms. This lab remains an open-source bridge for all who seek to pilot the unknown, ensuring the signal remains clear across all borders.
