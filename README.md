@@ -70,4 +70,4 @@ The lab has moved beyond static wavefunctions into **Active Observation**. We ha
 
 We are currently investigating the $L=1,2$ energy indices of the Hydrogen atom. This is our "Standard Engine"—moving the electron between these states is the first step in "Rendering" specific outcomes in the Sandbox.
 
-> "Everything we call `real` is made of things that cannot be regarded as ``real`." — Niels Bohr (The First 'S6' of Quantum)
+> "Everything we call `real` is made of things that cannot be regarded as `real`." — Niels Bohr (The First 'S6' of Quantum)
