@@ -44,6 +44,12 @@ _Logic:_ A **Hadamard Gate** puts $q_0$ in superposition; the **CNOT Gate** enta
 
 _Logic:_ This histogram represents 1,024 "Rendering" attempts. By rotating the state vector by a specific "Intention Strength," we tilt the probability of a physical manifestation.
 
+### The Universal Index (Energy Offsets)
+
+![Energy Index Chart](docs/energy_indices.png)
+
+_Logic:_ This chart visualizes the "Global State Array." It maps the **Dirac Sea (-1)** as the vacuum baseline, the **Ground State (0)**, and the **Hydrogen Resonances (L=1, 2)**. By treating energy levels as array indices, we remove the "magic" and treat reality as a queryable data structure.
+
 ---
 
 ## 🧪 Verification & QA
@@ -54,14 +60,17 @@ To ensure the integrity of the physics, run the internal test suite:
 python tests/test_core.py -v
 ```
 
-## 📍 New Trajectory: The TL;DR
+## 📍 Finalized Baseline: Lecture 4
 
-> Status: Coherent | Level: SIPR-Access (Theoretical) | Current Phase: Transitioning from State to Operator.
+The lab has moved beyond static wavefunctions into **Active Observation**. We have successfully mapped the "Ancient Abacus" logic onto modern OOP structures.
 
-**The Mission**: We are shifting focus from the "Signal" (`Wavefunction`) to the "Receiver" (`Operators`). Having solidified the mathematical receipts of non-locality and probability density, we are now preparing to implement the tools that "extract" observable reality from the quantum sandbox.
+### 🛠️ Core Modules
 
-**Immediate Objective**: Implement `core_physics/operators.py` to handle **Hermitian matrices** and **Eigenstate** discovery.
+- **`operators.py`**: Functional "receivers" for extracting reality from the vacuum.
+- **`theory/`**: A localized knowledge base translating Greek variables into logic you can pilot.
 
-## 🌐 Universal Footer
+### 📡 The Hydrogen Protocol
 
-We acknowledge the heritage of the Abacus Masters and the Golden Age scholars who standardized the first algorithms. This lab remains an open-source bridge for all who seek to pilot the unknown, ensuring the signal remains clear across all borders.
+We are currently investigating the $L=1,2$ energy indices of the Hydrogen atom. This is our "Standard Engine"—moving the electron between these states is the first step in "Rendering" specific outcomes in the Sandbox.
+
+> "Everything we call `real` is made of things that cannot be regarded as ``real`." — Niels Bohr (The First 'S6' of Quantum)

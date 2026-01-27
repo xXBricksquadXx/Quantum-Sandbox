@@ -1,5 +1,5 @@
 import numpy as np
-from qiskit import QuantumCircuit, Leaf
+from qiskit import QuantumCircuit
 from qiskit_aer import AerSimulator
 
 def run_bell_test(num_shots=1024):
