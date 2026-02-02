@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from qiskit import QuantumCircuit
 from qiskit.visualization import plot_histogram
 from qiskit_aer import AerSimulator
+from core_physics.harmonic_oscillator import HarmonicOscillator
 
 def generate_lab_report():
     print("🚀 Initializing Lab Asset Generation...")
@@ -23,9 +24,8 @@ def generate_lab_report():
     plot_histogram(counts).savefig('docs/manifestation_probabilities.png')
     print("✅ Manifestation Histogram saved.")
 
-    # 3. NEW: Dirac Vacuum & L-State Energy Chart
-    # Visualizing the 'Array Indices' of the Universe
-    levels = np.array([-1, 0, 1, 2]) # -1 (Dirac), 0 (Ground), 1 (L=1), 2 (L=2)
+    # 3. Dirac Vacuum & L-State Energy Chart (Lecture 4)
+    levels = np.array([-1, 0, 1, 2])
     labels = ['Dirac Sea (-1)', 'Ground (0)', 'L=1 (Hydrogen)', 'L=2 (Hydrogen)']
     
     plt.figure(figsize=(8, 5))
@@ -35,10 +35,28 @@ def generate_lab_report():
     
     plt.title("Quantum State Array: Energy Indices")
     plt.ylabel("Energy Level (Eigenvalues)")
-    plt.xticks([]) # Clean up X-axis
+    plt.xticks([])
     plt.grid(axis='y', linestyle='--')
     plt.savefig('docs/energy_indices.png')
     print("✅ Energy Index Chart saved.")
+
+    # 4. NEW: Vibration-Mass Slope (Lecture 5 - Kinetic Mass Bridge)
+    # Proving that internal vibration (omega) increases Invariant Mass
+    print("📡 Generating Vibration-Mass Slope...")
+    box = HarmonicOscillator(omega=2.0, mass_zero=1.0)
+    
+    n_levels = np.arange(0, 10)
+    masses = [box.get_invariant_mass(n) for n in n_levels]
+    
+    plt.figure(figsize=(8, 5))
+    plt.plot(n_levels, masses, marker='o', linestyle='-', color='purple', label='m = E/c²')
+    plt.title("The Kinetic-Mass Bridge: Energy vs. Invariant Mass")
+    plt.xlabel("Vibrational Level (n)")
+    plt.ylabel("Total System Mass (Invariant)")
+    plt.legend()
+    plt.grid(True, linestyle='--')
+    plt.savefig('docs/vibration_mass_slope.png')
+    print("✅ Vibration-Mass Slope saved.")
     
     print("\n🔬 All systems coherent. Ready for commit.")
 

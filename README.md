@@ -47,6 +47,12 @@ _Logic:_ This histogram represents 1,024 "Rendering" attempts. By rotating the s
 
 _Logic:_ This chart visualizes the "Global State Array." It maps the **Dirac Sea (-1)** as the vacuum baseline, the **Ground State (0)**, and the **Hydrogen Resonances (L=1, 2)**. By treating energy levels as array indices, we remove the "magic" and treat reality as a queryable data structure.
 
+### The Kinetic-Mass Bridge (Vibration vs. Mass)
+
+![Vibration-Mass Slope](docs/vibration_mass_slope.png)
+
+_Logic:_ This plot demonstrates the relativistic "Weight" gain of a system. As we use the **Ladder Operators** to increase the vibrational level ($n$), the internal energy ($E$) rises. Per $E=mc^2$, this increases the **Invariant Mass**, proving that a "Hot" or "Resonating" system has more physical presence in the field than a "Cold" one.
+
 ---
 
 ## 🧪 Verification & QA
@@ -54,20 +60,26 @@ _Logic:_ This chart visualizes the "Global State Array." It maps the **Dirac Sea
 To ensure the integrity of the physics, run the internal test suite:
 
 ```bash
-python tests/test_core.py -v
+# Check the math
+python tests/test_core.py
+python tests/test_oscillator.py
+
+# Regenerate the visual receipts
+python docs/generate_assets.py
+
 ```
 
-## 📍 Finalized Baseline: Lecture 4
+## 📍 Finalized Baseline: Lecture 5 (Relativity & Vibration)
 
-The lab has moved beyond static wavefunctions into **Active Observation**. We have successfully mapped the "Ancient Abacus" logic onto modern OOP structures.
+We have successfully bridged the gap between **Quantum Oscillation** and **Einsteinian Relativity**. By implementing the "Box of Molecules" logic, we demonstrate that "Weight" is a dynamic property of internal energy density.
 
 ### 🛠️ Core Modules
 
-- **`operators.py`**: Functional "receivers" for extracting reality from the vacuum.
-- **`theory/`**: A localized knowledge base translating Greek variables into logic you can pilot.
+- **`harmonic_oscillator.py`**: The vibration engine. Contains `LadderOperator` (state shifters) and `HarmonicOscillator` (mass-energy calculation).
+- **`theory/kinetic_mass_and_relativity.md`**: Documentation on why a "Hot" system is physically heavier than a "Cold" one.
 
-### 📡 The Hydrogen Protocol
+### 📡 The Resonance Theory
 
-We are currently investigating the $L=1,2$ energy indices of the Hydrogen atom. This is our "Standard Engine"—moving the electron between these states is the first step in "Rendering" specific outcomes in the Sandbox.
+This baseline provides the mathematical framework for investigating "High-Signal" structures (Obelisks, Resonators). If mass is energy, then resonance is a mechanism for increasing a system's physical presence in the field.
 
-> "Everything we call `real` is made of things that cannot be regarded as ``real`." — Niels Bohr (The First 'S6' of Quantum)
+> "Mass is just the name we give to the total energy of a system at rest." — Leonard Susskind (The 'General' of the Bridge)
