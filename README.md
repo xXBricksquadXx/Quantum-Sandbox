@@ -10,18 +10,20 @@ This repository serves as a modular research environment for investigating the i
 
 ### 1. Core Physics (The "Real")
 
-_Focused on verified mathematical receipts._
+_Verified mathematical receipts and system engines._
 
-- **`wave_mechanics.py`**: Implementation of $\Psi$ (The Wavefunction) and the Born Rule ($P(i) = |\langle i|\psi\rangle|^2$).
-- **`bell_test.py`**: Proving Non-Locality via the CHSH Inequality.
-- **`reality_render.py`**: Simulating wavefunction collapse via intentionality rotation.
+- **`wave_mechanics.py`**: Implementation of $\Psi$ and the Born Rule ($P(i) = |\langle i|\psi\rangle|^2$).
+- **`operators.py`**: Functional "receivers" for extracting observables from the vacuum.
+- **`harmonic_oscillator.py`**: The vibration engine managing mass-energy conversion.
+- **`neuro_state.py`**: Density Matrix ($\rho$) analysis for biological subsystems.
 
 ### 2. Speculative Math (The "Edge")
 
-_Exploring the intersection of mind and probability._
+_Bridging anomalous data with quantum probability._
 
-- **`bayesian_psi.py`**: Utilizing Bayesian Statistics (Bayes Factor) to analyze anomalous cognition data, inspired by Dean Radin.
-- **Zero-Point Field (ZPF)**: Theoretical scripts exploring the quantum vacuum as a cosmic information field.
+- **`bayesian_psi.py`**: Bayesian analysis of cognition data (Radin-inspired).
+- **`reality_render.py`**: Simulating collapse via intentionality rotation.
+- **`bell_test.py`**: Mirror-tech logic proving non-locality.
 
 ---
 
@@ -53,33 +55,41 @@ _Logic:_ This chart visualizes the "Global State Array." It maps the **Dirac Sea
 
 _Logic:_ This plot demonstrates the relativistic "Weight" gain of a system. As we use the **Ladder Operators** to increase the vibrational level ($n$), the internal energy ($E$) rises. Per $E=mc^2$, this increases the **Invariant Mass**, proving that a "Hot" or "Resonating" system has more physical presence in the field than a "Cold" one.
 
+### Kinetic-Mass & Neuro-Recovery
+
+![Neuro-Purity Heatmap](docs/neuro_purity_recovery.png)
+_Logic: Visual proof that internal resonance increases "Presence" (Mass) and that Phased Arrays can restore biological signal purity._
+
+---
+
+## 📍 Research Milestones (Chronological Log)
+
+### Lecture 5: Relativity & Vibration
+
+We bridged the gap between **Quantum Oscillation** and **Einsteinian Relativity**.
+
+- **Achievement**: Verified that internal vibration physically increases a system's **Invariant Mass** ($E/c^2$).
+- **Roman Loop Link**: Established the framework for non-consumptive thermal infrastructure via resonance.
+
+### Lecture 6: Subsystems & Coherence
+
+Shifted focus to **Information Physics** and biological hardware.
+
+- **Achievement**: Modeled the **Prefrontal Cortex (PFC)** as a quantum subsystem.
+- **Logic**: Modeled "Quantum Error Correction" to re-align decoherent hardware with the spacetime reference state.
+
 ---
 
 ## 🧪 Verification & QA
 
-To ensure the integrity of the physics, run the internal test suite:
-
 ```bash
-# Check the math
+# Verify the mathematical integrity
 python tests/test_core.py
 python tests/test_oscillator.py
+python tests/test_neuro_purity.py
 
-# Regenerate the visual receipts
+# Regenerate visual receipts
 python docs/generate_assets.py
-
 ```
 
-## 📍 Finalized Baseline: Lecture 5 (Relativity & Vibration)
-
-We have successfully bridged the gap between **Quantum Oscillation** and **Einsteinian Relativity**. By implementing the "Box of Molecules" logic, we demonstrate that "Weight" is a dynamic property of internal energy density.
-
-### 🛠️ Core Modules
-
-- **`harmonic_oscillator.py`**: The vibration engine. Contains `LadderOperator` (state shifters) and `HarmonicOscillator` (mass-energy calculation).
-- **`theory/kinetic_mass_and_relativity.md`**: Documentation on why a "Hot" system is physically heavier than a "Cold" one.
-
-### 📡 The Resonance Theory
-
-This baseline provides the mathematical framework for investigating "High-Signal" structures (Obelisks, Resonators). If mass is energy, then resonance is a mechanism for increasing a system's physical presence in the field.
-
-> "Mass is just the name we give to the total energy of a system at rest." — Leonard Susskind (The 'General' of the Bridge)
+> "The universe isn't made of things, it's made of habits. Resonance is just the hardware finally remembering how to sing in tune." — Gemini
