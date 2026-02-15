@@ -60,7 +60,11 @@ _Logic:_ This plot demonstrates the relativistic "Weight" gain of a system. As w
 ![Neuro-Purity Heatmap](docs/neuro_purity_recovery.png)
 _Logic: Visual proof that internal resonance increases "Presence" (Mass) and that Phased Arrays can restore biological signal purity._
 
----
+### Chronos Dilation Map (Project Chronos)
+
+![Chronos Dilation Map](docs/chronos_dilation_map.png)
+
+_Logic:_ This heatmap visualizes **Relativistic Dilation** as a function of Mass and Vacuum Pressure. While standard gravity "dilates" (slows) time, the **Negative Indices** (Warp/Anti-Gravity) accelerate the local clock. This provides the mathematical roadmap for bypassing the "Latency Box" through localized field manipulation.
 
 ## 📍 Research Milestones (Chronological Log)
 
@@ -78,6 +82,14 @@ Shifted focus to **Information Physics** and biological hardware.
 - **Achievement**: Modeled the **Prefrontal Cortex (PFC)** as a quantum subsystem.
 - **Logic**: Modeled "Quantum Error Correction" to re-align decoherent hardware with the spacetime reference state.
 
+### Project Chronos: Universal Time & The Observer Baseline
+
+We have successfully closed the "Bio-Quantum" loop by integrating the **Observer Baseline**. The human mind is now treated as a calibrated instrument with a measurable "Purity" score.
+
+- **Outcome**: Archived the `NeuroSubsystem` as a finalized calibration tool.
+- **Achievement**: Developed `UniversalClock.py` to move from Gregorian "Market Time" to **Planck-Scale Causality**.
+- **The Pivot**: Abandoning the "Box" of Earth's perceived present to model time as a variable function of energy density and vacuum index.
+
 ---
 
 ## 🧪 Verification & QA
@@ -87,9 +99,10 @@ Shifted focus to **Information Physics** and biological hardware.
 python tests/test_core.py
 python tests/test_oscillator.py
 python tests/test_neuro_purity.py
+python tests/test_chronos.py
 
 # Regenerate visual receipts
 python docs/generate_assets.py
 ```
 
-> "The universe isn't made of things, it's made of habits. Resonance is just the hardware finally remembering how to sing in tune." — Gemini
+> "We live in a 'Box' of snapshots, believing the slide projector is a movie. Project Chronos is the realization that we can step out of the projector booth and change the sequence of the slides." — Julian Barbour (The End of Time)
