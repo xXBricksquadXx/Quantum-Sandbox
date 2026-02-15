@@ -9,22 +9,20 @@ This repository serves as a modular research environment for investigating the i
 ## 🛠️ Project Architecture
 
 ### 1. Core Physics (The "Real")
-
 _Verified mathematical receipts and system engines._
 
+- **`universal_clock.py`**: **[NEW]** The physics engine replacing Gregorian time with Planck-scale causality and relativistic dilation logic.
 - **`wave_mechanics.py`**: Implementation of $\Psi$ and the Born Rule ($P(i) = |\langle i|\psi\rangle|^2$).
+- **`harmonic_oscillator.py`**: The vibration engine managing mass-energy conversion (The Kinetic-Mass Bridge).
+- **`neuro_state.py`**: Density Matrix ($\rho$) analysis for calibrating the **Observer Baseline** (Purity).
 - **`operators.py`**: Functional "receivers" for extracting observables from the vacuum.
-- **`harmonic_oscillator.py`**: The vibration engine managing mass-energy conversion.
-- **`neuro_state.py`**: Density Matrix ($\rho$) analysis for biological subsystems.
 
 ### 2. Speculative Math (The "Edge")
-
 _Bridging anomalous data with quantum probability._
 
+- **`bell_test.py`**: Mirror-tech logic proving non-locality (The "Ping" for ELSEWHERE).
+- **`reality_render.py`**: Simulating wavefunction collapse via intentionality rotation.
 - **`bayesian_psi.py`**: Bayesian analysis of cognition data (Radin-inspired).
-- **`reality_render.py`**: Simulating collapse via intentionality rotation.
-- **`bell_test.py`**: Mirror-tech logic proving non-locality.
-
 ---
 
 ## 🔬 Visual Lab Ledger
@@ -58,6 +56,7 @@ _Logic:_ This plot demonstrates the relativistic "Weight" gain of a system. As w
 ### Kinetic-Mass & Neuro-Recovery
 
 ![Neuro-Purity Heatmap](docs/neuro_purity_recovery.png)
+
 _Logic: Visual proof that internal resonance increases "Presence" (Mass) and that Phased Arrays can restore biological signal purity._
 
 ### Chronos Dilation Map (Project Chronos)
