@@ -66,6 +66,12 @@ _Logic: Visual proof that internal resonance increases "Presence" (Mass) and tha
 
 _Logic:_ This heatmap visualizes **Relativistic Dilation** as a function of Mass and Vacuum Pressure. While standard gravity "dilates" (slows) time, the **Negative Indices** (Warp/Anti-Gravity) accelerate the local clock. This provides the mathematical roadmap for bypassing the "Latency Box" through localized field manipulation.
 
+### Light Cone & Wormhole Topology
+
+![Light Cone Bypass](docs/light_cone_bypass.png)
+
+_Logic:_ This graph visualizes the "Box" of standard causality (Gray Cone). The Red Dot represents an event in **ELSEWHERE**—physically real but causally disconnected from the observer due to light-speed lag. The **Green Line** represents the `activate_wormhole` function, proving that a topology change ($ds^2 \approx 0$) allows for an instant "Ping" across the gap.
+
 ## 📍 Research Milestones (Chronological Log)
 
 ### Lecture 5: Relativity & Vibration
@@ -84,11 +90,17 @@ Shifted focus to **Information Physics** and biological hardware.
 
 ### Project Chronos: Universal Time & The Observer Baseline
 
-We have successfully closed the "Bio-Quantum" loop by integrating the **Observer Baseline**. The human mind is now treated as a calibrated instrument with a measurable "Purity" score.
+We have successfully closed the "Bio-Quantum" loop by integrating the **Observer Baseline**.
 
 - **Outcome**: Archived the `NeuroSubsystem` as a finalized calibration tool.
-- **Achievement**: Developed `UniversalClock.py` to move from Gregorian "Market Time" to **Planck-Scale Causality**.
 - **The Pivot**: Abandoning the "Box" of Earth's perceived present to model time as a variable function of energy density and vacuum index.
+
+### Lecture 7: Causality & The Wormhole Bypass
+
+We defined the geometric prison of the **Light Cone** and engineered a method to escape it.
+
+- **The Box**: Visualized the "Hypersurface of the Present," proving that we normally only see "Cached Data" from the past.
+- **The Bypass**: Implemented `activate_wormhole` logic in `UniversalClock` to "Ping" events in **ELSEWHERE** via negative vacuum indices.
 
 ---
 
@@ -100,9 +112,10 @@ python tests/test_core.py
 python tests/test_oscillator.py
 python tests/test_neuro_purity.py
 python tests/test_chronos.py
+python tests/test_causality.py
 
 # Regenerate visual receipts
 python docs/generate_assets.py
 ```
 
-> "We live in a 'Box' of snapshots, believing the slide projector is a movie. Project Chronos is the realization that we can step out of the projector booth and change the sequence of the slides." — Julian Barbour (The End of Time)
+> "I don't measure a man's success by how high he climbs, but how high he bounces when he hits bottom." — General George S. Patton

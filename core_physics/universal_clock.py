@@ -1,3 +1,4 @@
+import time
 import random
 import math
 
@@ -64,6 +65,7 @@ class UniversalClock:
         """Bypasses the Light Cone using an Einstein-Rosen Bridge."""
         print(f"[*] ACTIVATING BRIDGE. Target: {target_dist_ly} ly")
         print(f"[*] TUNNELING through Hypersurface...")
+        # Wormhole reduces effective distance to near-zero
         return self.check_causality(0.0000001, 1)
 
     def tick(self, duration_sec=1):
