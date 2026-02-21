@@ -1,6 +1,6 @@
 # Light Cone Latency: The Speed Limit of Reality
 
-![Special Theory of Relativity](docs/special-theory-relativity.png)
+![Special Theory of Relativity](/docs/special-theory-relativity.png)
 
 ## 1. The Geometry of "Now"
 
